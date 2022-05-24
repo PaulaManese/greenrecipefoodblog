@@ -9,15 +9,14 @@
 
       
     <!-- external css -->
-    <link rel="stylesheet" href="css/recipecards.css">
+    <link rel="stylesheet" href="css/recipe_page.css">
 
-      <!-- fontawesome icons -->
-  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<!-- fontawesome icons -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
      <!-- animate on scroll *optional* -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
- 
 </head>
 
 <body>
@@ -38,22 +37,16 @@
           </label>
          </div>
 
-<!--Recipe Cards -->
+<!--Recipe Cards Intro -->
 <section class="heading">
     <h1>Our Recipes</h1>
   <div class="button-container">
-    <button class="button" onClick="window.location.href='https://pinchofyum.com/recipes/vegan';"> 
-        <span class="icon">Vegan</span>
-   </button>
-   <button class="button" onClick="window.location.href='https://pinchofyum.com/recipes/salad';"> 
-    <span class="icon">Salad</span>
-</button>
-<button class="button" onClick="window.location.href='https://pinchofyum.com/recipes/pasta';"> 
-    <span class="icon">Pasta</span>
-</button>
+    <button type="button" class="button"><a href="/sweet_catagory.html">Sweet</a></button>
+    <button type="button" class="button "><a href="/savoury_catagory.html">Savoury</a></button>
+    <button type="button" class="button "><a href="/side_category.html">Side</a></button>
+</div>
 
-
-<p>Search Recipes:</p>
+<!-- Search Bar -->
 <form class="example" action="/action_page.php">
   <input type="text" placeholder="Search.." name="search">
   <button type="submit"><i class="fa fa-search"></i></button>
@@ -67,8 +60,7 @@
   <br>
   <br>
 
-
-
+<!-- Recipe Card -->
 <div class="wrapper">
     <div class="cols">
               <div class="col" ontouchstart="this.classList.toggle('hover');">
@@ -88,7 +80,7 @@
               </div>
               <div class="col" ontouchstart="this.classList.toggle('hover');">
                   <div class="container">
-                      <div class="front" style="url(https://pinchofyum.com/wp-content/uploads/Chocolate-Chip-Cookies.jpg)">
+                      <div class="front" style="background-image: url(https://pinchofyum.com/wp-content/uploads/Red-Chile-Chicken-Tacos-1.jpg)">
                           <div class="inner">
                               <p>Red Chile Chicken Tacos with Creamy Corn
                             </p>
@@ -180,7 +172,7 @@
               </div>
               <div class="col" ontouchstart="this.classList.toggle('hover');">
                   <div class="container">
-                      <div class="front" style="background-image: url(https://unsplash.it/508/508/)">
+                      <div class="front" style="background-image: url(https://www.insidetherustickitchen.com/wp-content/uploads/2021/08/Pappa-al-Pomodoro-1200px-Inside-the-Rustic-Kitchen-2.jpg)">
                           <div class="inner">
                               <p>Italian Tomato and Bread Soup (Pappa Al Pomodoro)</p>
                 <span>View Recipe</span>
@@ -210,7 +202,7 @@
             </div>
             <div class="col" ontouchstart="this.classList.toggle('hover');">
                 <div class="container">
-                    <div class="front" style="background-image: url(Spicy Peanut Soup with Sweet Potato + Kale)">
+                    <div class="front" style="background-image: url(https://pinchofyum.com/wp-content/uploads/sweet-potato-peanut-soup-recipe.jpg)">
                         <div class="inner">
                             <p>Spicy Peanut Soup with Sweet Potato + Kale</p>
               <span>View Recipe</span>
@@ -258,10 +250,67 @@
           </div>
    </div>
 
-   <!-- Footer -->
-<footer>
-    <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by <a href="#">CFG</a>.</p>
-   </footer>
+<!-- footer -->	 
+<footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <h6>About</h6>
+          <p class="text-justify">GREEN RECIPE FOOD BLOG<br>
+            87-135 BROMPTON ROAD<br>
+              KNIGHTSBRIDGE
+              LONDON<br>
+  
+      Do you want to ask about something?<br>
+      +44 (0)20 7730 1234<br>
+      +44 (0)20 7723 5432<br>
+      greenrecipefoofblog@foodstyle.com</p>
+        </div>
+  
+        <div class="col-xs-6 col-md-3">
+          <h6>Categories</h6>
+          <ul class="footer-links">
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="">GREEN RECIPE FOOD GROUP</a></li>
+            <li><a href="">CAREERS</a></li>
+            <li><a href="">BECOME AFFLIATE</a></li>
+            <li><a href="">CORPORATE RESPONSIBILTY</a></li>
+            <li><a href="">PRESS</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-xs-6 col-md-3">
+          <h6>Quick Links</h6>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">Contribute</a></li>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Sitemap</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by 
+       <a href="#">CFG</a>.
+          </p>
+        </div>
+  
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <ul class="social-icons">
+            <li><a class="facebook" href="https://www.facebook.com/Green-Recipe-Food-Blog-113738341343018"><i class="fab fa-facebook"></i></a></li>
+            <li><a class="twitter" href="https://twitter.com/PaowiiC"><i class="fab fa-twitter"></i></a></li>
+            <li><a class="instagram" href="https://www.instagram.com/greenrecipeblog/"><i class="fab fa-instagram"></i></a></li>
+            <li><a class="linkedin" href="https://www.linkedin.com/in/paula-manese-b32a64197/"><i class="fab fa-linkedin"></i></a></li>  
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
 
  <!-- AOS -->
  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
