@@ -7,7 +7,7 @@
 View demo: 
 
 ```bash
-demo link here
+https://greenrecipefoodblog.netlify.app/
 ```
 
 ## Technical Specifications:
